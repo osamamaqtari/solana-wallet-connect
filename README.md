@@ -19,6 +19,7 @@ $ yarn start
 
 # npm:
 $ npm start
+```
 
 ## Usage
 1. When the project is run, you will be presented with the following screen:
