@@ -6,6 +6,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from "react-router-dom";
 
+// workaround: Buffer is not defined error
+window.Buffer = window.Buffer || require("buffer").Buffer;
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
