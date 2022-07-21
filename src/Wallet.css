@@ -1,0 +1,8 @@
+.tokens-text {
+    display: inline-block;
+    margin-left: 32px;
+    padding: 28px 32px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2;
+}
